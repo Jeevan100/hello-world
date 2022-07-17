@@ -1,54 +1,50 @@
-* {box-sizing: border-box}
+<Html>
+<head> 
+<title>
+Registration Page
+</title>
+</head>
+<body bgcolor="Lightskyblue">
+<br>
+<br>
+<form>
 
-/* Add padding to containers */
-.container {
-  padding: 16px;
-}
+<label> Firstname </label>       
+<input type="text" name="firstname" size="15"/> <br> <br>
+<label> Middlename: </label>   
+<input type="text" name="middlename" size="15"/> <br> <br>
+<label> Lastname: </label>       
+<input type="text" name="lastname" size="15"/> <br> <br>
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
+<label> 
+Course :
+</label> 
+<select>
+<option value="Course">Course</option>
+<option value="BCA">BCA</option>
+<option value="BBA">BBA</option>
+<option value="B.Tech">B.Tech</option>
+<option value="MBA">MBA</option>
+<option value="MCA">MCA</option>
+<option value="M.Tech">M.Tech</option>
+</select>
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
+<br>
+<br>
+<label> 
+Gender :
+</label><br>
+<input type="radio" name="male"/> Male <br>
+<input type="radio" name="female"/> Female <br>
+<input type="radio" name="other"/> Other
+<br>
+<br>
 
-/* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for the submit/register button */
-.registerbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.registerbtn:hover {
-  opacity:1;
-}
-
-/* Add a blue text color to links */
-a {
-  color: dodgerblue;
-}
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-  background-color: #f1f1f1;
-  text-align: center;
-}
+<label> 
+Phone :
+</label>
+<input type="text" name="country code"  value="+91" size="2"/> 
+<input type="text" name="phone" size="10"/> <br> <br>
+Address
+<br>
+<textarea cols="80" rows="5" value="address">
