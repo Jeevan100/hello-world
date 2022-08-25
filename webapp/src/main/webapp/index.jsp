@@ -1,36 +1,11 @@
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Phone</th>
-  </tr>
-  <tr>
-    <td>John Doe</td>
-    <td>john.doe@example.com</td>
-    <td>123-45-678</td>
-  </tr>
-</table>
-<table>
-  <thead>
-    <tr>
-      <th>Month</th>
-      <th>Savings</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>January</td>
-      <td>$100</td>
-    </tr>
-    <tr>
-      <td>February</td>
-      <td>$80</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td>Sum</td>
-      <td>$180</td>
-    </tr>
-  </tfoot>
-</table>
+<!DOCTYPE>  
+<html>  
+<head>  
+<title>Web page title</title>  
+</head>  
+<body>  
+<h1>Cognizant</h1>  
+<p>Hello I am Jeevan.</p> 
+<p>How Are You.</p>
+</body>  
+</html>
